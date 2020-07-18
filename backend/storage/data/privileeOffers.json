@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "name": "Atlantis The Palm",
+        "image": "https:\/\/via.placeholder.com\/250x250",
+        "discount_percentage": "25"
+    },
+    {
+        "id": "2",
+        "name": "Five Hotel",
+        "image": "https:\/\/via.placeholder.com\/250x250",
+        "discount_percentage": "15"
+    },
+    {
+        "id": "3",
+        "name": "Ceasar Palace",
+        "image": "https:\/\/via.placeholder.com\/250x250",
+        "discount_percentage": "10"
+    }
+]
