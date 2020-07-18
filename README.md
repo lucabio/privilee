@@ -4,41 +4,41 @@ Privilee Challenge repo it's done to implement the Full Stack Developer Challeng
 
 https://docs.google.com/document/d/1e50G6fh5KmbkHcaOi9JP5hFuMaYIrHy5GSPBwx3IlRg/edit
 
-## Usage
+## php -f convert_csv_to_json_xml.php [path/to/csv]
 
-```CLI Command to convert CSV file into JSON and XML file
+CLI Command to convert CSV file into JSON and XML file
 
-Execute the below command in the root folder of this project
-
-php -f convert_csv_to_json_xml.php [path/to/csv]
+Execute the above command in the root folder of this project
 
 This command will save into backend/storage/data
 
-1) privileeOffers.json
-2) privileeOffers.xml
+privileeOffers.json
+privileeOffers.xml
 
-```Rest API serving
+### CSV Example
 
-To run server access to backend directory and run
+In the root of the project you can find the test.csv file to use for the import of data
 
-php artisan serve
+### php artisan serve
 
-this will serve the localhost:8000 server which expose the get-api/{name}/{discount} REST API to retrieve hotels/offers list
+To run server access to backend directory.
 
-The BackEnd is made with latest version of Laravel based on PHP 7, it's a huge project for a very small purpose and i know it, but to remain in the indicated time i did what i've already know to build a server php based and without study or learn anyother frameworks.
+This will serve the localhost:8000 server which expose the get-api/{name}/{discount} REST API to retrieve hotels/offers list
 
-```FrontEnd to display carousel image based on rest api
+The BackEnd is made with latest version of Laravel based on PHP 7, it's a huge project for a very small purpose and i know it.
+To stay in the indicated time i did what i've already know to build a server php based without study or learn anyother frameworks.
 
-To run the front end application go inside frontend folder and run 
+### npm init
+### npm start
 
-npm init
-npm start
+FrontEnd to display carousel image based on rest api
 
-this will serve the frontend app on localhost:3000.
+To run the front end application go inside frontend folder and run the above commands
+
+This will serve the frontend app on localhost:3000.
 
 The FrontEnd app will display all the list of hotels uploaded via csv file with the uploader.
 It's possible to filter the image basing of Resort Name (the search is not a string equality, but it's a strpos so even if user search 'five', API will returns 'Five Hotel') and Discount Percentage (the discount percentage is a equality)
-
 
 ### Considerations
 
