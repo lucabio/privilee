@@ -19,14 +19,11 @@ privileeOffers.xml
 
 In the root of the project you can find the test.csv file to use for the import of data
 
-### php artisan serve
+### php -S 127.0.0.1:8000 -t backend
 
-To run server access to backend directory.
+Run this command in the root folder to run serve that will respond at localhost:8000
 
 This will serve the localhost:8000 server which expose the get-api/{name}/{discount} REST API to retrieve hotels/offers list
-
-The BackEnd is made with latest version of Laravel based on PHP 7, it's a huge project for a very small purpose and i know it.
-To stay in the indicated time i did what i've already know to build a server php based without study or learn anyother frameworks.
 
 ### npm init
 ### npm start

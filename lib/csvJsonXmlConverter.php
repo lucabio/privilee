@@ -80,7 +80,7 @@
             $fp = fopen($filename.'.'.$ext, 'w');
             fwrite($fp, $content);
             fclose($fp);
-            copy($filename.'.'.$ext, 'backend/storage/data/'.$filename.'.'.$ext);
+            copy($filename.'.'.$ext, 'be/storage/'.$filename.'.'.$ext);
             unlink($filename.'.'.$ext);
         }
         /**
